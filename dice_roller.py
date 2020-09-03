@@ -2,7 +2,7 @@ import random
 
 def main():
   rolls = 2
-  dice_sum = 0
+  
   for i in range(0,rolls):
     roll = random.randint(1,6)
     dice_sum += roll
